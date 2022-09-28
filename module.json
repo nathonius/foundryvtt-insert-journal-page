@@ -1,0 +1,21 @@
+{
+  "id": "insert-journal-page",
+  "title": "Insert Jornal Page",
+  "description": "Inserts new journal pages after the current page, rather than at the end of the list.",
+  "authors": [
+    {
+      "name": "OfficerHalf",
+      "url": "https://github.com/OfficerHalf"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "esmodules": ["index.js"],
+  "url": "https://github.com/OfficerHalf/foundryvtt-insert-journal-page",
+  "manifest": "https://github.com/OfficerHalf/foundryvtt-insert-journal-page/releases/latest/download/module.json",
+  "download": "https://github.com/OfficerHalf/foundryvtt-insert-journal-page/releases/download/1.0.0/module.zip",
+  "license": "LICENSE"
+}
