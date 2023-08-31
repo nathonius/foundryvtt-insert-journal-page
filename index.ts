@@ -38,6 +38,9 @@ async function afterCreatePage(
 
   // Update sort
   if (newPage) {
+    // Wait a few ticks, prosemirror takes a second to update.
+    // Without this a (seemingly harmless) error is produced
+    await new Promise((resolve) => setTimeout(resolve, 50));
     const updated = await newPage.update({ sort: newSortValue });
     if (updated) {
       newPage = updated;
