@@ -1,6 +1,6 @@
 {
   "name": "foundryvtt-insert-journal-page",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inserts new journal pages after the current page, rather than at the end of the list.",
   "main": "index.js",
   "scripts": {
